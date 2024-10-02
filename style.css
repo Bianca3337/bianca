@@ -1,60 +1,33 @@
 body {
-    color: rgba(251, 219, 240, 0.472);
-    background: rgb(3, 0, 0);
-    margin: 0px;
-    font-family: "Chakra Petch", sans-serif;
-    margin-bottom: 100px;
-}
-
-header {
-    border-bottom: solid 2px rgb(72, 14, 89);
-    padding: 20px;
-    font-size: 32px;
-    color: rgb(217, 31, 250);
-}
-
-.chamada {
-    background: rgb(74, 23, 122);
-    padding-bottom: 80px;
-    padding-top: 80px;
+    background-color: #1D4221;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
 }
 
-.chamada-texto {
-    margin-right: 5%;
+button {
+    background-color: #64A712;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
 }
 
-h1 {
-    font-size: 40px;
+.passo {
+    display: none;
 }
 
-p {
-    font-size: 20px;
+.passo.ativo {
+    display:block;
 }
 
-.categoria-videos {
-    display: flex;
-    overflow-x: auto;
-    gap: 10px;
+main {
+    text-align: center;
+    max-width: 90%;
 }
 
-.categoria {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 50px;
-}
-
-.categoria-videos img {
-    opacity: 0.5;
-    height: 200px;
-}
-
-.categoria-videos img:hover {
-    opacity: 1.0;
-    border: 3px solid rgba(74, 185, 250, 0.995);
-}
-
-.categoria h2 {
-    color: rgb(181, 1, 142);
+img {
+    max-width: 90%;
 }
